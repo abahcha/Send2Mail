@@ -12,5 +12,5 @@ Icon=thunderbird
 [X-Action-Profile profile-zero]
 MimeTypes=all/allfiles;
 #Exec=/usr/lib/thunderbird/thunderbird -compose "attachment='%F'"
-Exec=/usr/lib/thunderbird/thunderbird -compose attachment="%f"
+Exec=/usr/bin/thunderbird -compose attachment="%f"
 #Exec=/home/andrew/bin/send2mail.sh "%F"
