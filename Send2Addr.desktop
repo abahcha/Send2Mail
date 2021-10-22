@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Send to email
+Name[ru]=Отправить на email
+Terminal=false
+Profiles=profile-zero
+Comment=Send file by email
+Comment[ru]=Отправить файл по эл.почте
+Icon=thunderbird
+
+[X-Action-Profile profile-zero]
+MimeTypes=all/allfiles;
+#Exec=/usr/lib/thunderbird/thunderbird -compose "attachment='%F'"
+Exec=/usr/lib/thunderbird/thunderbird -compose attachment="%f"
+#Exec=/home/andrew/bin/send2mail.sh "%F"
