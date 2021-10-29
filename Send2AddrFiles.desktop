@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Send to email
+Name[ru]=Отправить на email
+Terminal=false
+Profiles=profile0
+Comment=Send files by email
+Comment[ru]=Отправить файлы по эл.почте
+Icon=thunderbird
+
+[X-Action-Profile profile0]
+MimeTypes=all/allfiles;
+TryExec=thunderbird
+Exec=/YouHomeDir/bin/send2mail.sh "%F"
